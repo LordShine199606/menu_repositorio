@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myfirstapp/principal_page..dart';
+import 'package:myfirstapp/principalPage..dart';
 
 main() {
   runApp(const MyApp());

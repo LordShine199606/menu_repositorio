@@ -1,7 +1,9 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myfirstapp/utils/size_device.dart';
-import 'package:myfirstapp/utils/utils_const.dart';
+import 'package:myfirstapp/utils/sizeDevice.dart';
+import 'package:myfirstapp/utils/utilsConst.dart';
 
 class ResgisterPage extends StatefulWidget {
   const ResgisterPage({super.key});

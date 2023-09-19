@@ -1,7 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:myfirstapp/utils/size_device.dart';
+// ignore_for_file: file_names
 
-import 'package:myfirstapp/utils/utils_const.dart';
+import 'package:flutter/material.dart';
+import 'package:myfirstapp/utils/sizeDevice.dart';
+
+import 'package:myfirstapp/utils/utilsConst.dart';
 
 class SplahPage1 extends StatefulWidget {
   const SplahPage1({super.key});
@@ -23,13 +25,13 @@ class _SplahPage1State extends State<SplahPage1> {
         body:   Stack(
           children: [
             Container(
-              color:ConsUtils.colorsPrimary ,
+              color:ConsUtils.threedColors ,
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
 
-              Image(image: const AssetImage('assets/img/logo.png'),
+              Image(image: const AssetImage('assets/img/preto-remove.png'),
               width: context.sizedDevice.width/0.2,),
            
             ],
